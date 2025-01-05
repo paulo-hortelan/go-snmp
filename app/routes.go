@@ -2,10 +2,10 @@ package app
 
 import (
 	"github.com/go-chi/chi/v5"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/handler"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/middleware"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
+	"go-snmp/internal/handler"
+	"go-snmp/internal/middleware"
 	"net/http"
 	"os"
 )

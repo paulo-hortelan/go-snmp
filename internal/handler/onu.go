@@ -3,10 +3,10 @@ package handler
 import (
 	"fmt"
 	"github.com/go-chi/chi/v5"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/usecase"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/utils"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/pkg/pagination"
 	"github.com/rs/zerolog/log"
+	"go-snmp/internal/usecase"
+	"go-snmp/internal/utils"
+	"go-snmp/pkg/pagination"
 	"net/http"
 	"strconv"
 )

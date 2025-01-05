@@ -1,4 +1,4 @@
-module github.com/megadata-dev/go-snmp-olt-zte-c320
+module go-snmp
 
 go 1.19
 

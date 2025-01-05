@@ -3,7 +3,7 @@ package utils
 import (
 	"encoding/json"
 	"errors"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/model"
+	"go-snmp/internal/model"
 	"net/http"
 	"net/http/httptest"
 	"testing"

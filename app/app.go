@@ -2,18 +2,20 @@ package app
 
 import (
 	"context"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/config"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/handler"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/repository"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/usecase"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/utils"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/pkg/graceful"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/pkg/redis"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/pkg/snmp"
-	rds "github.com/redis/go-redis/v9"
-	"github.com/rs/zerolog/log"
 	"net/http"
 	"os"
+
+	"go-snmp/pkg/snmp"
+
+	rds "github.com/redis/go-redis/v9"
+	"github.com/rs/zerolog/log"
+	"go-snmp/config"
+	"go-snmp/internal/handler"
+	"go-snmp/internal/repository"
+	"go-snmp/internal/usecase"
+	"go-snmp/internal/utils"
+	"go-snmp/pkg/graceful"
+	"go-snmp/pkg/redis"
 )
 
 type App struct {

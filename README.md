@@ -1,6 +1,6 @@
 # Monitoring OLT ZTE C320 with SNMP
-[![build](https://github.com/megadata-dev/go-snmp-olt-zte-c320/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/megadata-dev/go-snmp-olt-zte-c320/actions/workflows/build.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/megadata-dev/go-snmp-olt-zte-c320)](https://goreportcard.com/report/github.com/megadata-dev/go-snmp-olt-zte-c320)
+[![build](https://go-snmp/actions/workflows/build.yml/badge.svg?branch=main)](https://go-snmp/actions/workflows/build.yml)
+[![Go Report Card](https://goreportcard.com/badge/go-snmp)](https://goreportcard.com/report/go-snmp)
 [![codecov](https://codecov.io/gh/megadata-dev/go-snmp-olt-zte-c320/graph/badge.svg?token=NB3N7GMUX3)](https://codecov.io/gh/megadata-dev/go-snmp-olt-zte-c320)
 
 Service for integration into the C320 OLT with the Go programming language
@@ -282,4 +282,4 @@ var (
 
 
 ### LICENSE
-[MIT License](https://github.com/megadata-dev/go-snmp-olt-zte-c320/blob/main/LICENSE)
+[MIT License](https://go-snmp/blob/main/LICENSE)

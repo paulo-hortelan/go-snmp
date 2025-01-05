@@ -3,10 +3,10 @@ package repository
 import (
 	"context"
 	"encoding/json"
-	"github.com/megadata-dev/go-snmp-olt-zte-c320/internal/model"
 	"github.com/pkg/errors"
 	"github.com/redis/go-redis/v9"
 	"github.com/rs/zerolog/log"
+	"go-snmp/internal/model"
 	"time"
 )
 
